@@ -1,4 +1,4 @@
-package com.formation.velo.api.client;
+package com.formation.velo.api.client.velo;
 
 import com.formation.velo.api.OpenData;
 

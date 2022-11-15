@@ -25,7 +25,7 @@ public class Field {
         @SerializedName("epci_name")
         private String epciName;
         @SerializedName("dep_code")
-        private String depCode;
+        private int depCode;
         @SerializedName("prix_id")
         private String prixId;
         @SerializedName("services_service")
@@ -36,9 +36,9 @@ public class Field {
         private String comArmName;
         @SerializedName("prix_maj")
         private Date prixMaj;
-        private String id;
+        private int id;
         @SerializedName("reg_code")
-        private String regCode;
+        private int regCode;
         private String adresse;
         private double[] geom;
         @SerializedName("epci_code")
